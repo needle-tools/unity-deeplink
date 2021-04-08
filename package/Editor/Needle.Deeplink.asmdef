@@ -1,15 +1,17 @@
 {
-    "name": "needle.deeplink",
+    "name": "Needle.Deeplink",
     "rootNamespace": "",
     "references": [
         "GUID:336404f647c61ce4db3b999a77d5db23"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
-    "autoReferenced": true,
+    "autoReferenced": false,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
