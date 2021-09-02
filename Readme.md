@@ -30,17 +30,17 @@ Check out the sample as basis for custom stuff:
 ## Test Links
 
 These links will only work when this package is in your project.  
-_Note: GitHub doesn't seem to show these links properly._
+_Note: GitHub/OpenUPM doesn't seem to show these links properly. They work fine from a regular website._
 
 - [Install MemoryProfiler Package (GitHub-compatible link)](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 - [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 
 These will only work when this package is in your project and you've imported the Sample.
 
-- [Open Sample Scene](unityhub://com.unity3d.kharma:open-scene/DeepLinkSample)  
-- [Ping Receiver1](unityhub://com.unity3d.kharma:selected-sample/Receiver1)  
+- [Open Sample Scene](url://com.unity3d.kharma:open-scene/DeepLinkSample)  
+- [Ping Receiver1](com.unity3d.kharma:selected-sample/Receiver1)  
 - [Ping Receiver2](com.unity3d.kharma:selected-sample/Receiver1)  
-
+- 
 For reference, these are regular Unity deeplinks that work without this package:  
 
 - [Install Unity 2021.1.19f1](unityhub://2021.1.19f1/5f5eb8bbdc25)
