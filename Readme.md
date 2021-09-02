@@ -29,8 +29,10 @@ Check out the sample as basis for custom stuff:
 
 ## Test Links
 
-These will only work when this package is in your project.
+These links will only work when this package is in your project.  
+_Note: GitHub doesn't seem to show these links properly._
 
+- [Install MemoryProfiler Package (GitHub-compatible link)](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 - [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 
 These will only work when this package is in your project and you've imported the Sample.
@@ -44,9 +46,9 @@ For reference, these are regular Unity deeplinks that work without this package:
 - [Install Unity 2021.1.19f1](unityhub://2021.1.19f1/5f5eb8bbdc25)
 - [Open Bolt in "My Assets"](com.unity3d.kharma:content/163802)
 
-## Deeplinks from Slack / Discord / etc
+## Deeplinks from GitHub markdown / Slack / Discord / etc
 
-Many non-browsers don't support deeplinks directly.  
+Many non-browsers (messaging tools, markdown viewers, ...) don't support deeplinks directly.  
 You can use our deeplink forwarder for these cases: 
 
 - [Install MemoryProfiler Package (Slack-compatible link)](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  

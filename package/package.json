@@ -15,8 +15,8 @@
   "category": "Libraries",
   "samples": [
     {
-      "displayName": "Deep Link Samples",
-      "description": "Shows how to intercept Deep Links from web browsers to Unity Editor.",
+      "displayName": "Deeplink Samples",
+      "description": "Shows how to use Deeplinks from web browsers to Unity Editor.",
       "path": "Samples~/DeepLinks"
     }
   ],
