@@ -19,5 +19,9 @@
       "description": "Shows how to intercept Deep Links from web browsers to Unity Editor.",
       "path": "Samples~/DeepLinks"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/needle-tools/unity-deeplink"
+  }
 }
