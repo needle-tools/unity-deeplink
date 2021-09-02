@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEditor.PackageManager;
 using UnityEngine;
 
-namespace needle.EditorPatching
+namespace Needle.Deeplink
 {
     /// <summary>
     /// Allows to intercept web deep links going to Unity.

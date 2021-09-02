@@ -1,7 +1,8 @@
 {
-    "name": "pfc.EditorPatching.Samples.DeepLinks",
+    "name": "Needle.Deeplink.Sample",
+    "rootNamespace": "",
     "references": [
-        "pfc.EditorPatching"
+        "GUID:119ddd88cc417614fa18c41ff712bc23"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

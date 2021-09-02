@@ -1,23 +1,23 @@
 {
-	"displayName": "Deeplink",
-	"name": "com.needle.deeplink",
-	"version": "1.0.0",
-	"unity": "2019.4",
-	"description": "Add custom deeplink support to Unity",
-	"keywords": [
-		"Editor"
-	],
-	"author": {
-		"name": "Needle",
-		"email": "contact@needle.tools",
-		"url": "https://needle.tools"
-	  },
-	"category": "Libraries",
-	"samples": [
-		{
-			"displayName": "Deep Link Samples",
-			"description": "Shows how to intercept Deep Links from web browsers to Unity Editor.",
-			"path": "Samples~/DeepLinks"
-		}
-	]
+  "displayName": "Deeplink",
+  "name": "com.needle.deeplink",
+  "version": "1.1.0",
+  "unity": "2019.4",
+  "description": "Add custom deeplink support to Unity",
+  "keywords": [
+    "Editor"
+  ],
+  "author": {
+    "name": "Needle",
+    "email": "contact@needle.tools",
+    "url": "https://needle.tools"
+  },
+  "category": "Libraries",
+  "samples": [
+    {
+      "displayName": "Deep Link Samples",
+      "description": "Shows how to intercept Deep Links from web browsers to Unity Editor.",
+      "path": "Samples~/DeepLinks"
+    }
+  ]
 }
