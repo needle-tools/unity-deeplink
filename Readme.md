@@ -32,19 +32,18 @@ Check out the sample as basis for custom stuff:
 These links will only work when this package is in your project.  
 _Note: GitHub/OpenUPM doesn't seem to show these links properly. They work fine from a regular website._
 
-- [Install MemoryProfiler Package (GitHub-compatible link)](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
-- [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
+- [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 
 These will only work when this package is in your project and you've imported the Sample.
 
-- [Open Sample Scene](url://com.unity3d.kharma:open-scene/DeepLinkSample)  
-- [Ping Receiver1](com.unity3d.kharma:selected-sample/Receiver1)  
-- [Ping Receiver2](com.unity3d.kharma:selected-sample/Receiver1)  
-- 
+- [Open Sample Scene](com.unity3d.kharma:open-scene/DeepLinkSample) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:open-scene/DeepLinkSample) 
+- [Ping Receiver1](com.unity3d.kharma:selected-sample/Receiver1) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:selected-sample/Receiver1)
+- [Ping Receiver2](com.unity3d.kharma:selected-sample/Receiver1) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:selected-sample/Receiver1) 
+
 For reference, these are regular Unity deeplinks that work without this package:  
 
-- [Install Unity 2021.1.19f1](unityhub://2021.1.19f1/5f5eb8bbdc25)
-- [Open Bolt in "My Assets"](com.unity3d.kharma:content/163802)
+- [Install Unity 2021.1.19f1](unityhub://2021.1.19f1/5f5eb8bbdc25) [↗](https://fwd.needle.tools/deeplink?unityhub://2021.1.19f1/5f5eb8bbdc25)
+- [Open Bolt in "My Assets"](com.unity3d.kharma:content/163802) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:content/163802)
 
 ## Deeplinks from GitHub markdown / Slack / Discord / etc
 
@@ -54,6 +53,10 @@ You can use our deeplink forwarder for these cases:
 - [Install MemoryProfiler Package (Slack-compatible link)](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
 
 The forwarder is located at `https://fwd.needle.tools/deeplink?` and supports links starting with `com.unity3d.kharma:` or `unityhub://`.
+
+## Related Issues
+- GitHub Markdown strips custom protocol links: https://github.community/t/deeplink-urls-are-stripped-from-github-markdown/199464
+- OpenUPM changes links to be relative when they use custom protocols: https://github.com/openupm/openupm/issues/2393
 
 ## Contact
 <b>[needle — tools for unity](https://needle.tools)</b> • 
