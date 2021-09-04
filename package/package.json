@@ -1,7 +1,7 @@
 {
   "displayName": "Deeplink",
   "name": "com.needle.deeplink",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "unity": "2019.4",
   "description": "Add custom deeplink support to Unity",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "author": {
     "name": "Needle",
-    "email": "contact@needle.tools",
+    "email": "hi@needle.tools",
     "url": "https://needle.tools"
   },
   "category": "Libraries",

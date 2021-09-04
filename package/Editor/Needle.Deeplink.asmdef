@@ -13,6 +13,12 @@
     ],
     "autoReferenced": false,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a5",
+            "define": "BUILTIN_UPM_DEEPLINKS"
+        }
+    ],
     "noEngineReferences": false
 }

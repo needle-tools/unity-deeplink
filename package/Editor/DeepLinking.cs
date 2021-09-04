@@ -51,23 +51,16 @@ namespace Needle.Deeplink
             }
         }
         
-        // [DeepLink]
-        // // ReSharper disable once UnusedMember.Local
-        // private static bool LogDeepLink(string url)
-        // {
-        //     Debug.Log("[Deep Link] Received: " + url);
-        //     return false;
-        // }
-        
-        [DeepLink(RegexFilter = @"com.unity3d.kharma:install-package/(.*)")]
+#if !BUILTIN_UPM_DEEPLINKS
+        [DeepLink(RegexFilter = @"com.unity3d.kharma:upmpackage/(.*)")]
         // ReSharper disable once UnusedMember.Local
         private static bool InstallPackage(string url)
         {
-            // UnityEditor.PackageManager.UI.Window.Open(url);
+            Debug.Log("got deeplink, installing");
             InstallPackageByIdentifier(url);
             return true;
         }
-
+        
         private static async void InstallPackageByIdentifier(string identifier)
         {
             Debug.Log("[Deep Link] Installing package: " + identifier);
@@ -77,9 +70,18 @@ namespace Needle.Deeplink
             if (request.Status != StatusCode.Success)
                 Debug.LogWarning("Package " + identifier + " couldn't be installed.");
         }
+#endif
 
+        // Some more samples.
+        
+        // [DeepLink]
+        // private static bool LogDeepLink(string url)
+        // {
+        //     Debug.Log("[Deep Link] Received: " + url);
+        //     return false;
+        // }
+        
         // [DeepLink(RegexFilter = @"com.unity3d.kharma:custom\/(.*)")]
-        // // ReSharper disable once UnusedMember.Local
         // private static bool LogCustomData(string data)
         // {
         //     Debug.Log("[Deep Link] Data: " + data);

@@ -5,20 +5,25 @@
 ## What's this?
 
 Unity uses deeplinks for a number of AssetStore-related tasks, e.g. "Open in Unity" on the Asset Store website. This is cool but there's no official callback to tap into this mechanism for custom behaviours.  
-This package adds a `[Deeplink]` attribute that can be set on a static method to have it called for specific deeplink requests.  
-By default you can also install Unity packages (from registries you already have in your project).  
 
-If this package is not in your project, custom deeplinks won't break anything - they'll just open a Package Manager window that doesn't do anything.
+This package adds a `[Deeplink]` attribute that can be set on a static method to have it called for specific deeplink requests.  
+
+It also adds support to 2019 & 2020 for the upmpackage installation deeplink that's available from 2021.2+:  
+[com.unity3d.kharma:upmpackage/com.unity.memoryprofiler](com.unity3d.kharma:upmpackage/com.unity.memoryprofiler) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:upmpackage/com.unity.memoryprofiler)
+which means you can start using that in projects today.
+
+The built-in upmpackage/ format just calls PackMan to add that package – so if it's from a scoped registry and you have that registry properly set up, it will just work.  
 
 ## Quick Start
 
+This package is also available on [OpenUPM](https://openupm.com/packages/com.needle.deeplink/).  
 Add this package to Unity:  
 
 - Open Package Manager
 - Click <kbd>+</kbd>
 - Click <kbd>Add Package from git URL / name</kbd>
 - Paste `https://github.com/needle-tools/unity-deeplink.git?path=/package`
-- Click Enter.
+- Press Enter.
 
 Check out the sample as basis for custom stuff:  
 
@@ -29,10 +34,11 @@ Check out the sample as basis for custom stuff:
 
 ## Test Links
 
-These links will only work when this package is in your project.  
-_Note: GitHub/OpenUPM doesn't seem to show these links properly. They work fine from a regular website._
+_Note: GitHub messes up some of these links. They work fine from a regular website. Use the ↗ links from there._
 
-- [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:install-package/com.unity.memoryprofiler)  
+UPM package installation links will work when this package is in your project, or without the package when you're on 2021.2+.  
+
+- [Install MemoryProfiler Package](com.unity3d.kharma:install-package/com.unity.memoryprofiler) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:upmpackage/com.unity.memoryprofiler)  
 
 These will only work when this package is in your project and you've imported the Sample.
 
@@ -40,10 +46,11 @@ These will only work when this package is in your project and you've imported th
 - [Ping Receiver1](com.unity3d.kharma:selected-sample/Receiver1) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:selected-sample/Receiver1)
 - [Ping Receiver2](com.unity3d.kharma:selected-sample/Receiver1) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:selected-sample/Receiver1) 
 
-For reference, these are regular Unity deeplinks that work without this package:  
+For reference, these are regular Unity deeplinks:  
 
 - [Install Unity 2021.1.19f1](unityhub://2021.1.19f1/5f5eb8bbdc25) [↗](https://fwd.needle.tools/deeplink?unityhub://2021.1.19f1/5f5eb8bbdc25)
 - [Open Bolt in "My Assets"](com.unity3d.kharma:content/163802) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:content/163802)
+- [Install MemoryProfiler](com.unity3d.kharma:upmpackage/com.unity.memoryprofiler) [↗](https://fwd.needle.tools/deeplink?com.unity3d.kharma:upmpackage/com.unity.memoryprofiler)
 
 ## Deeplinks from GitHub markdown / Slack / Discord / etc
 
