@@ -62,9 +62,9 @@ You can use our deeplink forwarder for these cases:
 The forwarder is located at `https://fwd.needle.tools/deeplink?` and supports links starting with `com.unity3d.kharma:` or `unityhub://`.
 
 ## Related Issues
-- GitHub Markdown strips custom protocol links: https://github.community/t/deeplink-urls-are-stripped-from-github-markdown/199464
-- opened Issue with GitHub Support
-~~- OpenUPM changes links to be relative when they use custom protocols: https://github.com/openupm/openupm/issues/2393~~
+- GitHub Markdown strips custom protocol links: https://github.community/t/deeplink-urls-are-stripped-from-github-markdown/199464  
+- opened Issue with GitHub Support  
+- ~~OpenUPM changes links to be relative when they use custom protocols: https://github.com/openupm/openupm/issues/2393~~
 
 ## Contact
 <b>[needle — tools for unity](https://needle.tools)</b> • 
