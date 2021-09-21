@@ -56,8 +56,8 @@ namespace Needle.Deeplink
         // ReSharper disable once UnusedMember.Local
         private static bool InstallPackage(string url)
         {
-            Debug.Log("got deeplink, installing");
-            InstallPackageByIdentifier(url);
+            if (EditorUtility.DisplayDialog("Install Package", "This will install " + url + ".", "Install", "Cancel"))
+                InstallPackageByIdentifier(url);
             return true;
         }
         
